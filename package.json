@@ -1,0 +1,29 @@
+{
+  "name": "cylhv",
+  "version": "1.0.0",
+  "description": "lhv test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mik-siv/cyLHV.git"
+  },
+  "author": "mikhail.sivinskikh@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mik-siv/cyLHV/issues"
+  },
+  "homepage": "https://github.com/mik-siv/cyLHV#readme",
+  "dependencies": {
+    "cypress": "^10.1.0",
+    "cypress-real-events": "^1.7.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3"
+  }
+}
